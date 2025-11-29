@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 50px;
+background-image: linear-gradient(to bottom right, rgb(218, 171, 179),skyblue ,rgb(160, 160, 78));
+
+}
+
+.Container {
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+select {
+     width: 275px;
+    height: 50px;
+    font-size: 10pt;
+    padding: 10px;
+    
+}
+
+textarea {
+     width: 250px;
+    height: 30px;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+.Subnit-btn {
+    background-color: lightseagreen;
+     width: 273px;
+    height: 50px;
+    font-size: 14pt;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    
+}
